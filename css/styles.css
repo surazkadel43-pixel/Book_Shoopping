@@ -1,0 +1,45 @@
+body {
+  background-color: #f8f9fa;
+}
+
+.card {
+  transition: transform 0.2s ease-in-out, box-shadow 0.2s ease-in-out;
+}
+
+.card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.15);
+}
+
+.card-img-top {
+  height: 200px;
+  object-fit: cover;
+}
+
+.wishlist-icon {
+  cursor: pointer;
+  color: #dc3545;
+  transition: color 0.3s ease;
+}
+
+.wishlist-icon:hover {
+  color: #c82333;
+}
+
+.rating i {
+  color: #ffd700;
+}
+
+.navbar-brand img {
+  max-height: 50px;
+}
+
+.breadcrumb {
+  background-color: #f8f9fa;
+  padding: 10px 20px;
+}
+
+footer {
+  background-color: #f8f9fa;
+  padding: 20px 0;
+}
